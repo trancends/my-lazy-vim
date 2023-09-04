@@ -1,16 +1,13 @@
 return {
   {
-    "norcalli/nvim-colorizer.lua",
+    "NvChad/nvim-colorizer.lua",
     opts = {
-      "*",
-      css = {
+      user_default_options = {
         rgb_fn = true,
         hsl_fn = true,
+        mode = "background",
       },
     },
-    config = function()
-      require("colorizer").setup()
-    end,
     enabled = true,
   },
 }
