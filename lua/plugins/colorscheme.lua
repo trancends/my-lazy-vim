@@ -1,5 +1,6 @@
 return {
   { "ellisonleao/gruvbox.nvim" },
+  { "folke/tokyonight.nvim" },
   { "catppuccin/nvim" },
   { "haishanh/night-owl.vim" },
   { "EdenEast/nightfox.nvim" },
@@ -8,7 +9,7 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "nightfox",
+      colorscheme = "catppuccin",
     },
   },
 }
