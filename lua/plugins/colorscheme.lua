@@ -2,8 +2,7 @@ return {
   { "ellisonleao/gruvbox.nvim" },
   { "folke/tokyonight.nvim" },
   { "catppuccin/nvim" },
-  { "haishanh/night-owl.vim" },
-  { "EdenEast/nightfox.nvim" },
+  { "rose-pine/neovim", as = "rose-pine" },
 
   -- Configure LazyVim to load gruvbox
   {
